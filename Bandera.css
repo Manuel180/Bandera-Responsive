@@ -1,0 +1,91 @@
+
+img
+{
+   position: relative;
+   margin-top: 10%;
+   right: 900px;
+}
+
+#blanco
+{
+   background-color: white;
+   height: 599px;
+
+}
+
+#verde
+{
+   background-color: green;
+   height: 599px;
+
+}
+
+#rojo
+{
+   background-color: red;
+   height: 599px;
+}
+
+@media screen and (min-width: 780px) and (max-width: 1024px) {
+
+#verde
+{
+   background-color: green;
+   height: 599px;
+
+}
+
+#rojo
+{
+   background-color: red;
+   height: 599px;
+}
+	
+}
+
+
+@media screen and (min-width: 480px) and (max-width: 780px) {
+
+#blanco
+{
+   background-color: red;
+   height: 599px;
+
+}
+
+#verde
+{
+   background-color: white;
+   height: 599px;
+}
+
+#rojo
+{
+   background-color: green;
+   height: 599px;
+}
+	
+}
+
+@media screen and (max-width: 480px) {
+
+#blanco
+{
+   background-color: green;
+   height: 599px;
+
+}
+
+#verde
+{
+   background-color: white;
+   height: 599px;
+}
+
+#rojo
+{
+   background-color: red;
+   height: 599px;
+}
+	
+}
