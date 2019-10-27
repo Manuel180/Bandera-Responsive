@@ -1,50 +1,66 @@
 
 img
 {
-   position: relative;
-   margin-top: 10%;
-   right: 900px;
+   position: absolute;
+   margin-top: -30%;
+   right: 76%;
 }
 
 #blanco
 {
    background-color: white;
-   height: 599px;
+   height: 610px;
 
 }
 
 #verde
 {
    background-color: green;
-   height: 599px;
+   height: 610px;
 
 }
 
 #rojo
 {
    background-color: red;
-   height: 599px;
+   height: 610px;
 }
 
 @media screen and (min-width: 780px) and (max-width: 1024px) {
 
+img
+{
+   position: absolute;
+   margin-top: -40%;
+   right: 73%;
+}
+
+
 #verde
 {
    background-color: green;
-   height: 599px;
+   height: 610px;
 
 }
 
 #rojo
 {
    background-color: red;
-   height: 599px;
+   height: 610px;
 }
 	
 }
 
 
 @media screen and (min-width: 480px) and (max-width: 780px) {
+
+img
+{
+   position: relative;
+   margin-top: -10%;
+   right: 900%;
+   width: 500%;
+}
 
 #blanco
 {
@@ -69,6 +85,14 @@ img
 
 @media screen and (max-width: 480px) {
 
+img
+{
+   position: relative;
+   margin-top: -84%;
+   right: 36.5%;
+   width: 66%;
+}
+
 #blanco
 {
    background-color: green;
@@ -88,4 +112,35 @@ img
    height: 599px;
 }
 	
+}
+
+@media screen and (min-width: 411px) and (max-width: 823px) {
+
+img
+{
+   position: absolute;
+   margin-top: -209%;
+   right: 28%;
+   width: 46%;
+}
+
+#blanco
+{
+   background-color: red;
+   height: 599px;
+
+}
+
+#verde
+{
+   background-color: white;
+   height: 599px;
+}
+
+#rojo
+{
+   background-color: green;
+   height: 599px;
+}
+   
 }
